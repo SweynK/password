@@ -13,7 +13,7 @@
     padding: 5px;
     margin-bottom: 5px;
 }
-.password p:nth-child(3) {
+.password :nth-child(3){
     width: 100%;
     text-align: center;
     padding: 10px;

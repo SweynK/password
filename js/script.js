@@ -8,14 +8,14 @@ function shedareba(){
     // console.log(paroli1, paroli2);
 
     if(paroli1 == "" & paroli2 == ""){
-        console.log("gtoxvt chawerot paroli");
+        console.log("გთხოვთ ჩაწეროთ პაროლი");
         document.getElementById("answer").innerHTML="გხოვთ ჩაწეროთ პაროლი";
         document.getElementById("answer").style.color="#000000";
         document.getElementById("password").style.border="1px solid #ff0000";
         document.getElementById("repassword").style.border="1px solid #ff0000";
-    }else if(length1 <= 8 & length2 <=8){
-        console.log("paroli unda shedgebbodes minimum 8 simbolosgan");
-        document.getElementById("answer").innerHTML="paroli unda shedgebbodes minimum 8 simbolosgan";
+    }else if(length1 < 8 & length2 <8){
+        console.log("პაროლი უნდა შედგებოდეს მინიმუმ 8 სიმბოლოსგან!");
+        document.getElementById("answer").innerHTML="პაროლი უნდა შედგებოდეს მინიმუმ 8 სიმბოლოსგან!";
         document.getElementById("answer").style.color="#ff0000";
     }
     else if(paroli1 != paroli2 || paroli1 == "" || paroli2 == ""){
