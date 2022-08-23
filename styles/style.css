@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.password{
+    width: 400px;
+    margin: 40px auto;
+}
+.password input{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.password p:nth-child(3) {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #036103;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
